@@ -42,7 +42,7 @@ html, body {
           width: 0;
     }
     to {
-          width: 18em;
+          width: 15em;
     }
 }
 
@@ -52,7 +52,7 @@ html, body {
                 width: 0;
           }
           to {
-                width: 17em;
+                width: 14.5em;
           }
     }
 }
@@ -304,7 +304,7 @@ h6 {
 }
 
 .project1::after {
-    content: "laptop store.";
+    content: "Laptop Store.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -317,12 +317,12 @@ h6 {
 }
 
 .project2 {
-    background: url('../img/2.png') no-repeat 50% 50%;
+    background: url('../img/5.png') no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project2::after {
-    content: "memory game.";
+    content: "Fullstack Shop.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -335,12 +335,12 @@ h6 {
 }
 
 .project3 {
-    background: url('../img/3.png') no-repeat 50% 50%;
+    background: url('../img/2.png') no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project3::after {
-    content: "music app.";
+    content: "Memory Game.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -358,7 +358,7 @@ h6 {
 }
 
 .project4::after {
-    content: "rendición aubasa.";
+    content: "Calculator for Work.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -627,7 +627,7 @@ section {
 }
 
 section:nth-child(odd) {
-     background-color: #1D1F20;
+     background-color: #0f0f0f;
 
 }
 
@@ -650,7 +650,7 @@ section:nth-child(odd) h2 {
 section:nth-child(odd) h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #747C7F;
+    color: #c7c7c7;
     font-weight: 400;
     margin-bottom: 30px;
 }  
